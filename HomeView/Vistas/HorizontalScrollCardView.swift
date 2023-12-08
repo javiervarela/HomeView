@@ -13,7 +13,11 @@ struct HorizontalScrollCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title).font(.system(size: 20)).bold().padding(.horizontal, 15).padding(.top, 15)
+            Text(title)
+                .font(.system(size: 20))
+                .bold()
+                .padding(.horizontal, 15)
+                .padding(.top, 15)
             
             ScrollView(.horizontal, showsIndicators: true) {
                 HStack(spacing: 0) {

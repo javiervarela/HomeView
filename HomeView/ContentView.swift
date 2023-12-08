@@ -12,7 +12,8 @@ struct ContentView: View {
         ScrollView(.vertical) {
             VStack(alignment: .leading) {
                 HeaderView()
-                HorizontalScrollCardView(title: "Tendencias", moviesRepository: TrendingMovies())
+                //HorizontalScrollCardView(title: "Tendencias", moviesRepository: TrendingMovies())
+                HorizontalScrollTrailerView(title: "Últimos avances")
                 HorizontalScrollCardView(title: "Lo más popular", moviesRepository: PopularMovies())
                 HorizontalScrollCardView(title: "Ver gratis", moviesRepository: FreeMovies())
             }
