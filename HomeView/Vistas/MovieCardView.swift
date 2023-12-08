@@ -16,25 +16,26 @@ struct MovieCardView: View {
     var body: some View {
         VStack(alignment: .leading) {
             AsyncImage(url: image, scale: 1.5).cornerRadius(7)
-            Text(score.formatted())
-                .font(.system(size: 14))
-                .bold()
-                .foregroundColor(.white)
-                .background(Circle().fill(Color(red: 0.13, green: 0.27, blue: 0.16)).frame(width: 30, height: 30))
-                .position(x: 25, y: -8)
+            
+            CircleScoreView(progress: Float(score))
+                .position(x: 28, y: -8)
+             
             Text(title)
                 .lineLimit(2)
                 .font(.system(size: 14))
                 .bold()
                 .padding(.horizontal, 10)
                 .padding(.top, -30)
+            
             Text(date)
                 .foregroundColor(Color.gray)
                 .font(.system(size: 14))
                 .padding(.horizontal, 10)
+            
+            Spacer()
         }
         .frame(width: 147, height: 296)
-        .background(Color.red)
+        .background(Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
