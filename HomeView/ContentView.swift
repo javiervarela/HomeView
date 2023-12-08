@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ScrollView(.vertical) {
+            VStack(alignment: .leading) {
+                HeaderView()
+                Spacer()
+                HorizontalCarrouselCardView(title: "Tendencias", moviesRepository: TrendingMovies())
+                Spacer()
+                HorizontalCarrouselCardView(title: "Lo más popular", moviesRepository: PopularMovies())
+                Spacer()
+                HorizontalCarrouselCardView(title: "Ver gratis", moviesRepository: FreeMovies())
+            }
+        }.background(Color.blue)
     }
 }
 
