@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HorizontalCarrouselCardView: View {
+struct HorizontalScrollCardView: View {
     let title: String
     let moviesRepository: MoviesRepository
     

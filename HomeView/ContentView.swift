@@ -12,14 +12,11 @@ struct ContentView: View {
         ScrollView(.vertical) {
             VStack(alignment: .leading) {
                 HeaderView()
-                Spacer()
-                HorizontalCarrouselCardView(title: "Tendencias", moviesRepository: TrendingMovies())
-                Spacer()
-                HorizontalCarrouselCardView(title: "Lo más popular", moviesRepository: PopularMovies())
-                Spacer()
-                HorizontalCarrouselCardView(title: "Ver gratis", moviesRepository: FreeMovies())
+                HorizontalScrollCardView(title: "Tendencias", moviesRepository: TrendingMovies())
+                HorizontalScrollCardView(title: "Lo más popular", moviesRepository: PopularMovies())
+                HorizontalScrollCardView(title: "Ver gratis", moviesRepository: FreeMovies())
             }
-        }.background(Color.blue)
+        }
     }
 }
 

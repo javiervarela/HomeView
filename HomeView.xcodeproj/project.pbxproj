@@ -15,7 +15,7 @@
 		592E0E132B22A93F00F906CA /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E122B22A93F00F906CA /* MovieCardView.swift */; };
 		592E0E162B22A97800F906CA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E152B22A97800F906CA /* Movie.swift */; };
 		592E0E1A2B22A9B500F906CA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E192B22A9B500F906CA /* HeaderView.swift */; };
-		592E0E1C2B22A9EF00F906CA /* HorizontalCarrouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E1B2B22A9EF00F906CA /* HorizontalCarrouselCardView.swift */; };
+		592E0E1C2B22A9EF00F906CA /* HorizontalScrollCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E1B2B22A9EF00F906CA /* HorizontalScrollCardView.swift */; };
 		592E0E1E2B22B0D300F906CA /* TrendingMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E1D2B22B0D300F906CA /* TrendingMovies.swift */; };
 		592E0E202B22B2B400F906CA /* FreeMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E1F2B22B2B400F906CA /* FreeMovies.swift */; };
 		592E0E222B22B2CF00F906CA /* PopularMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E212B22B2CE00F906CA /* PopularMovies.swift */; };
@@ -32,7 +32,7 @@
 		592E0E122B22A93F00F906CA /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
 		592E0E152B22A97800F906CA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		592E0E192B22A9B500F906CA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		592E0E1B2B22A9EF00F906CA /* HorizontalCarrouselCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCarrouselCardView.swift; sourceTree = "<group>"; };
+		592E0E1B2B22A9EF00F906CA /* HorizontalScrollCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollCardView.swift; sourceTree = "<group>"; };
 		592E0E1D2B22B0D300F906CA /* TrendingMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovies.swift; sourceTree = "<group>"; };
 		592E0E1F2B22B2B400F906CA /* FreeMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMovies.swift; sourceTree = "<group>"; };
 		592E0E212B22B2CE00F906CA /* PopularMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovies.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				592E0E122B22A93F00F906CA /* MovieCardView.swift */,
 				592E0E192B22A9B500F906CA /* HeaderView.swift */,
-				592E0E1B2B22A9EF00F906CA /* HorizontalCarrouselCardView.swift */,
+				592E0E1B2B22A9EF00F906CA /* HorizontalScrollCardView.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				592E0E222B22B2CF00F906CA /* PopularMovies.swift in Sources */,
-				592E0E1C2B22A9EF00F906CA /* HorizontalCarrouselCardView.swift in Sources */,
+				592E0E1C2B22A9EF00F906CA /* HorizontalScrollCardView.swift in Sources */,
 				592E0E132B22A93F00F906CA /* MovieCardView.swift in Sources */,
 				592E0E242B22B32400F906CA /* MoviesRepository.swift in Sources */,
 				592E0E032B228ED000F906CA /* ContentView.swift in Sources */,
