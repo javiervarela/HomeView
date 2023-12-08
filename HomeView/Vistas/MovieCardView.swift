@@ -15,7 +15,7 @@ struct MovieCardView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            AsyncImage(url: image, scale: 1.5).cornerRadius(7)
+            AsyncImage(url: image, scale: 1.5).cornerRadius(10)
             
             CircleScoreView(progress: Float(score))
                 .position(x: 28, y: -8)

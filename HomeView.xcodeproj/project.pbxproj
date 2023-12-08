@@ -22,6 +22,7 @@
 		592E0E242B22B32400F906CA /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E232B22B32400F906CA /* MoviesRepository.swift */; };
 		592E0E262B234FE600F906CA /* CircleScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E252B234FE600F906CA /* CircleScoreView.swift */; };
 		592E0E282B23531900F906CA /* HorizontalScrollTrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E272B23531900F906CA /* HorizontalScrollTrailerView.swift */; };
+		592E0E2A2B23751B00F906CA /* MovieTrailerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E0E292B23751B00F906CA /* MovieTrailerCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		592E0E232B22B32400F906CA /* MoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
 		592E0E252B234FE600F906CA /* CircleScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleScoreView.swift; sourceTree = "<group>"; };
 		592E0E272B23531900F906CA /* HorizontalScrollTrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollTrailerView.swift; sourceTree = "<group>"; };
+		592E0E292B23751B00F906CA /* MovieTrailerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrailerCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				592E0E1B2B22A9EF00F906CA /* HorizontalScrollCardView.swift */,
 				592E0E252B234FE600F906CA /* CircleScoreView.swift */,
 				592E0E272B23531900F906CA /* HorizontalScrollTrailerView.swift */,
+				592E0E292B23751B00F906CA /* MovieTrailerCardView.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				592E0E1E2B22B0D300F906CA /* TrendingMovies.swift in Sources */,
 				592E0E282B23531900F906CA /* HorizontalScrollTrailerView.swift in Sources */,
 				592E0E1A2B22A9B500F906CA /* HeaderView.swift in Sources */,
+				592E0E2A2B23751B00F906CA /* MovieTrailerCardView.swift in Sources */,
 				592E0E202B22B2B400F906CA /* FreeMovies.swift in Sources */,
 				592E0E162B22A97800F906CA /* Movie.swift in Sources */,
 			);

@@ -14,6 +14,7 @@ struct HorizontalScrollTrailerView: View {
         VStack(alignment: .leading) {
             Text(title)
                 .font(.system(size: 20))
+                .foregroundColor(.white)
                 .bold()
                 .padding(.horizontal, 15)
                 .padding(.top, 15)
@@ -45,37 +46,18 @@ struct HorizontalScrollTrailerView: View {
                         image: URL(string: "https://www.themoviedb.org/t/p/w355_and_h200_multi_faces/1PkBhxXdEejw8c5BC7T3cN7jz9g.jpg")
                     )
                 }
-                .padding(.leading, 20)
+                .padding(.leading, 15)
                 .padding(.bottom, 20)
             }
         }
-        .background(Color.blue)
-    }
-}
-
-struct MovieTrailerCardView: View {
-    let id: Int
-    let title: String
-    let subtitle: String
-    let image: URL!
-    
-    var body: some View {
-        VStack {
-            ZStack {
-                AsyncImage(url: image, scale: 1.2).cornerRadius(7)
-                Text("▶︎")
-                    .font(.system(size: 70))
-                    .foregroundColor(.white)
-            }
-            
-            Text(title)
-                .bold()
-            
-            Text(subtitle)
-                .lineLimit(0)
-        }
-        .frame(maxWidth: 300)
-        .padding(.trailing, 15)
+        .background(Color(red: 0.01, green: 0.15, blue: 0.25, opacity: 0.8))
+        .background(AsyncImage(url: URL(string: "https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/1PkBhxXdEejw8c5BC7T3cN7jz9g.jpg")) { image in
+            image
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        } placeholder: {
+            ProgressView()
+        })
     }
 }
 

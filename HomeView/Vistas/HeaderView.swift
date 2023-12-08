@@ -16,8 +16,14 @@ struct HeaderView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.bottom, 20)
-        .edgesIgnoringSafeArea(.all)
         .foregroundColor(Color.white)
-        .background(AsyncImage(url: URL(string: "https://www.themoviedb.org/t/p/w880_and_h600_multi_faces_filter(duotone,00192f,00baff)/pQvqGK6KQDILL7SJrhMQsRvJfLB.jpg")))
+        .background(Color(red: 0.01, green: 0.15, blue: 0.25, opacity: 0.6))
+        .background(AsyncImage(url: URL(string: "https://www.themoviedb.org/t/p/w880_and_h600_multi_faces_filter(duotone,00192f,00baff)/pQvqGK6KQDILL7SJrhMQsRvJfLB.jpg")) { image in
+            image
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        } placeholder: {
+            ProgressView()
+        })
     }
 }
