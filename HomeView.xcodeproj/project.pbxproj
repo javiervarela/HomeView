@@ -75,9 +75,9 @@
 		592E0DFF2B228ED000F906CA /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				592E0E142B22A96A00F906CA /* Modelos */,
-				592E0E112B22A92200F906CA /* Vistas */,
-				592E0E102B22A91800F906CA /* Datos */,
+				592E0E142B22A96A00F906CA /* Model */,
+				592E0E112B22A92200F906CA /* View */,
+				592E0E102B22A91800F906CA /* Repository */,
 				592E0E002B228ED000F906CA /* HomeViewApp.swift */,
 				592E0E022B228ED000F906CA /* ContentView.swift */,
 				592E0E042B228ED100F906CA /* Assets.xcassets */,
@@ -94,7 +94,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		592E0E102B22A91800F906CA /* Datos */ = {
+		592E0E102B22A91800F906CA /* Repository */ = {
 			isa = PBXGroup;
 			children = (
 				592E0E0E2B22A86400F906CA /* Movies.swift */,
@@ -103,10 +103,10 @@
 				592E0E212B22B2CE00F906CA /* PopularMovies.swift */,
 				592E0E232B22B32400F906CA /* MoviesRepository.swift */,
 			);
-			path = Datos;
+			path = Repository;
 			sourceTree = "<group>";
 		};
-		592E0E112B22A92200F906CA /* Vistas */ = {
+		592E0E112B22A92200F906CA /* View */ = {
 			isa = PBXGroup;
 			children = (
 				592E0E122B22A93F00F906CA /* MovieCardView.swift */,
@@ -116,15 +116,15 @@
 				592E0E272B23531900F906CA /* HorizontalScrollTrailerView.swift */,
 				592E0E292B23751B00F906CA /* MovieTrailerCardView.swift */,
 			);
-			path = Vistas;
+			path = View;
 			sourceTree = "<group>";
 		};
-		592E0E142B22A96A00F906CA /* Modelos */ = {
+		592E0E142B22A96A00F906CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				592E0E152B22A97800F906CA /* Movie.swift */,
 			);
-			path = Modelos;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
